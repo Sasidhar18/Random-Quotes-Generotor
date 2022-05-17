@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-           <h4>Developed By $<a>Sasidhar S</a>$</h4> 
-        </div>
+        <>
+           <h5 className='author'>Developed By <a href='https://github.com/Sasidhar18'>Sasidhar.S</a></h5> 
+        </>
     )
 }
 

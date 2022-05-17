@@ -36,12 +36,11 @@ const Quotes = () => {
         setColor(randomColor())
         setQuote(quotes[randomIndex])
     }
-    console.log(quote)
     document.body.style.backgroundColor = color;
     return (
-        <div className='quotes-box' style={{color: "white", backgroundColor: color}}>
+        <div className='quotes-box' style={{ color: "white", backgroundColor: color }}>
             <QuotesItem quote={quote.quote} author={quote.author} />
-            <Buttton onClickHandler={ClickHandler} color={color}/>
+            <Buttton onClickHandler={ClickHandler} color={color} />
         </div>
     )
 }
